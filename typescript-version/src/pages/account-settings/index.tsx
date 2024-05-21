@@ -46,6 +46,7 @@ const AccountSettings = () => {
   const [value, setValue] = useState<string>('account')
 
   const handleChange = (event: SyntheticEvent, newValue: string) => {
+    console.log(newValue)
     setValue(newValue)
   }
 
